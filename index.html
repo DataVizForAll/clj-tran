@@ -104,6 +104,10 @@
           <p>Figure 2 | <a href="https://www.datawrapper.de/_/4FHiF/">Link to Chart</a>
 
           <p>This is <a href="https://www.datawrapper.de/_/4FHiF/">a link</a> to the interactive chart. Here, this chart shows a comparison between Per Pupil Expenditure versus percentage of students with disabilities enrolled by district. However, the amount of funding doesn't increase along with the percentage of SWD. </p>
+          <p>Using data from EdSight, the raw data was pulled from two different tables. One raw data set shows the PPE by district and the other shows the number of students with disabilities enrolled by district. The enrollment of students with disabilities by district was converted into a percentage. This data was processed this way in order to show a comparison between the PPE and percentage of students with disabilities enrolled by district.</p>
+          <p>By looking at Chart 3 and taking into account the ECS formula mentioned earlier, there is no significant trend or positive correlation between the percentage of students with disabilities enrolled by district and the PPE by district. Although there are three outlying districts that can be seen near the bottom of the chart, it still does not change the fact that there is no significant trend between PPE and the percentage of enrolled students with disabilities.</p>
+          <p>Based on all three charts and previous background information, this means that students with disabilities are not at schools that allocate appropriate funding to their educational needs. This is important to note because in order to work towards a more equitable future where all students receive the funding that they need, current funding disparities need to be taken into account and talked about with school boards and other community organizations and members.</p>
+
         </div>
       </div>
     </div>
@@ -116,9 +120,10 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>Data Methods</h2>
-          <p>Give credit to people, organizations, resources, and tools that helped you to create this data story. Write in HTML format and include links when appropriate. If you wish to cite a reading, use any acceptable bibiography style and include a web link when available, similar to this sample:</p>
+          <p>These charts were created using data from EdSight. In order to create this data story, the raw data had to be filtered and processed by the 33 towns and 38 districts that were relevant to the class’s community partner, Center for Leadership and Justice. When figuring out the percentage of students with disabilities enrolled in New Britain and East Hartford, the raw number of students with disabilities was divided by the total number of students and sorted by school type.</p>
+          
+          <p>The same thing was done to get the percentage enrolled of students of disabilities by district in Chart 3. However, in that chart, the PPE data was extracted from the raw data and sorted by the relevant districts using VLOOKUP. After using VLOOKUP to narrow down the data to the relevant districts, the processed data was organized using Datawrapper to create a scatter chart to show the comparisons between the PPE and enrollment of students with disabilities.</p>
 
-          <p> Rebecca Lurye, <a href='https://www.courant.com/community/hartford/hc-news-hartford-housing-code-20190531-hcke2jo2x5fpdgz75xf4hlv2ki-story.html'>“New Housing Code in Hartford Would Keep Slumlords from Hiding Behind LLCs,”</a> Hartford Courant, May 31, 2019.</p>
         </div>
       </div>
     </div>
@@ -132,9 +137,7 @@
         <div class="col-lg-8 mx-auto">
           <h2>Concluding Thoughts and Limitations</h2>
 
-          <p>Change names of `Section 1` etc. to customized navigation labels that make sense for your data story, such as `Why It Matters` or `How We Made This` etc. To do this you must change names in TWO places: see the Navigation Container (around lines 30-50) and the corresponding Sections below. Keep the section numbers but change the reader-friendly labels.</p>
-
-          <h4>Optional Subheaders: Use H4 tags to break up long sections</h4>
+  
 
           <p>All of your data visualizations should be interactive. But if you need to insert a static image, you can upload a JPG or PNG to the GitHub repo, and insert it using the HTML img tag as shown below:</p>
 
@@ -157,48 +160,12 @@
 
           <h4>Two Options for Tables</h4>
 
-          <p>If you need to create a table, first try the Datawrapper Tables tool -- see <a href='https://handsondataviz.org/table.html'>HODV Chapter 8</a> -- and embed the results like this:</p>
+          <p>Some things to consider is that if the number of students enrolled is five or less, then the data will be suppressed and not show up for calculations– which is why there is no data for school types such as other magnet and open choice in Charts 1 and 2. When processing the raw data, there were a few school districts that did not have any data available at all, which is why they all may not be seen in Chart 3.</p>
+        
+          <p>It is also important to note that this is data taken from the school year ending (SYE) in 2021, and data from before the pandemic in 2020 may show different trends that might not correlate with the most recent data.</p>
+        
+          <p>Lastly, another thing to be aware of is the outline data, Capitol Region Education Council (CREC). CREC includes around 18 schools, but there was no data to be found for SWD. It is hard to imagine that CREC would have less than five SWD across 18 schools. However, they also could be suppressing this data to protect their students, which is why there was no data shown for CREC.</p>
 
-          <iframe title="Table 1: Suburbs Offer a Small Percentage of Their Seats to Hartford Open Choice Students " aria-label="Table" id="datawrapper-chart-Qrb7J" src="https://datawrapper.dwcdn.net/Qrb7J/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="972"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-          </script>
-
-          <p>Table 1: Add your standalone caption here.</p>
-
-          <p>A second option is to use the <a href="https://www.tablesgenerator.com/html_tables">Tables Generator HTML tool</a>. Go to File > Import or manually enter your table data, then Generate the HTML code, and paste it here, similar to this sample: </p>
-
-          <style type="text/css">
-          .tg  {border-collapse:collapse;border-spacing:0;}
-          .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-            overflow:hidden;padding:10px 5px;word-break:normal;}
-          .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-            font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-          .tg .tg-lqy6{text-align:right;vertical-align:top}
-          .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-          .tg .tg-dvpl{border-color:inherit;text-align:right;vertical-align:top}
-          </style>
-          <table class="tg">
-          <thead>
-            <tr>
-              <th class="tg-0pky">Header A</th>
-              <th class="tg-0pky">Header B</th>
-              <th class="tg-0pky">Header C</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="tg-dvpl">123</td>
-              <td class="tg-dvpl">456</td>
-              <td class="tg-dvpl">789</td>
-            </tr>
-            <tr>
-              <td class="tg-lqy6">987</td>
-              <td class="tg-lqy6">654</td>
-              <td class="tg-lqy6">321</td>
-            </tr>
-          </tbody>
-          </table>
-
-          <p>Table 2: Add your caption here.</p>
 
         
         
